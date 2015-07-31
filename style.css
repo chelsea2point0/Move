@@ -18,9 +18,10 @@ p {
 
 /* Main */
 .main {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/projects/move/bg.jpg");
+  background-image: url("http://portfolio.frontlineimage.com/data/photos/501_1wilz_newbalance_ilz1876.jpg");
   background-size: cover;
-  height: 600px;
+  width: 100%;
+  height: 650px;
   color: white;
   text-align: center;
 }
@@ -28,7 +29,7 @@ p {
 .main h1 {
   font-size: 200px;
   text-transform: uppercase;
-  margin: 0px;
+  margin: 70px 0 0;
 }
 
 .main p {
@@ -63,7 +64,7 @@ p {
 
 .supporting h1,
 .supporting h2 {
-  color: #ffa800;
+  color: #2C2CDB;
   font-size: 30px;
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -91,9 +92,9 @@ p {
 
 /* Feature */
 .feature {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/projects/move/feature.jpg");
+  background-image: url("https://runninglikeagazelle.files.wordpress.com/2013/12/dsc_9464-low.jpg");
   background-size: cover;
-  height: 600px;
+  height: 700px;
   text-align: center;
   margin: auto;
 }
@@ -114,7 +115,7 @@ p {
 
 /* Footer */
 .footer {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/projects/move/footer.jpg");
+  background-image: url("http://www.latoro.com/wallpapers/black-and-white/19243-desktop-wallpapers-road.jpg");
   background-size: cover;
   width: 100%;
   height: 600px;
@@ -124,6 +125,7 @@ p {
 .footer .container {
   position: relative;
   top: 200px;
+  text-transform: uppercase;
 }
 
 .footer h1,
