@@ -1,3 +1,5 @@
-$( ".main h1" ).hover(function() {
-  $( this ).toggleClass( "main-h1-hover" );
+$(document).ready(function() {
+    $('#moveit').click(function() {
+        $('#moveit').draggable();
+    });
 });

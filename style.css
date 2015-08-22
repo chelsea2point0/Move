@@ -10,11 +10,6 @@ p {
   font-family: Helvetica, Arial, sans-serif; 
 }
 
-.main-h1-hover {
-  font-size: 220px;
-  color: #2C2CDB;
-}
-
 .container {
   position: relative;
   width: 940px;
@@ -44,7 +39,8 @@ p {
 
 .btn {
   color: white;
-  background-color: #1c1c1c;
+  background-color: transparent;
+  border-radius: 0px;
   text-transform: uppercase;
   text-decoration: none;
   padding-right: 20px;
