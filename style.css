@@ -11,9 +11,9 @@ p {
 }
 
 .container {
+  margin: 0 auto;
   position: relative;
   width: 940px;
-  margin: 0 auto;
 }
 
 /* Main */
@@ -38,23 +38,23 @@ p {
 }
 
 .btn {
-  color: white;
   background-color: transparent;
   border-radius: 0px;
-  text-transform: uppercase;
-  text-decoration: none;
-  padding-right: 20px;
-  padding-left: 20px;
-  padding-top: 10px;
+  color: white;
   padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 
 /* Supporting */
 .supporting {
-  text-align: center;
-  padding: 50px 0 80px;
   background-color: #1c1c1c;
+  padding: 50px 0 80px;
+  text-align: center;
 }
 
 .supporting .col {
@@ -77,18 +77,18 @@ p {
 
 .supporting p {
   color: #efefef;
-  margin-bottom: 20px;
-  line-height: 20px;
   font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 20px;
 }
 
 .supporting .btn {
   background-color: #eee;
   color: #1c1c1c;
+  display: inline-block;
   font-size: 18px;
   padding: 8px 30px;
   text-decoration: none;
-  display: inline-block;
 }
 
 /* Feature */
@@ -118,15 +118,15 @@ p {
 .footer {
   background-image: url("http://www.latoro.com/wallpapers/black-and-white/19243-desktop-wallpapers-road.jpg");
   background-size: cover;
-  width: 100%;
   height: 600px;
   text-align: center;
+  width: 100%;
 }
 
 .footer .container {
   position: relative;
-  top: 200px;
   text-transform: uppercase;
+  top: 200px;
 }
 
 .footer h1,
@@ -145,14 +145,14 @@ p {
 }
 
 .footer btn {
-  color: white;
   background-color: #1c1c1c;
-  text-transform: uppercase;
-  text-decoration: none;
-  padding-right: 20px;
-  padding-left: 20px;
-  padding-top: 10px;
+  color: white;
   padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 
